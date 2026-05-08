@@ -1,0 +1,52 @@
+{
+  "lb_corr_opt_1": {
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission": 0.16958948257580803,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_meta": 0.08862960807048048,
+    "lightningv08_stock_market_signal_blind_blend__submission": 0.12906485963263284,
+    "lightningv08_stock_market_signal_single_tabicl_model__submission": 0.12654697323009786,
+    "junaid512_stock_market_signal_predictday__submission": 0.10622296175612235,
+    "yihanguo_stock_prediction_xgb_kfold_seed_ensemble__submission": 0.2553865618720768,
+    "contrarian_signal": 0.12455955286278161
+  },
+  "lb_corr_opt_2": {
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission": 0.21191096634163947,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_blend": 0.09993009910736828,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_lgbm": 0.036820892419485565,
+    "lightningv08_stock_market_signal_single_tabicl_model__submission": 0.12612627054662226,
+    "alanamonks_hgb_baseline_next_day_stock_pred__submission": 0.0483868094318721,
+    "junaid512_stock_market_signal_predictday__submission": 0.0904199036187733,
+    "yihanguo_stock_prediction_xgb_kfold_seed_ensemble__submission": 0.18916466508582647,
+    "contrarian_signal": 0.19724039344841243
+  },
+  "lb_corr_opt_3": {
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission": 0.2635641999454635,
+    "lightningv08_stock_market_signal_blind_blend__submission": 0.21800887766519977,
+    "alanamonks_hgb_baseline_next_day_stock_pred__submission": 0.03952837421390281,
+    "junaid512_stock_market_signal_predictday__submission": 0.05698670957662657,
+    "hmnshudhmn24_stock_market_signal_predict_next_day_returns__submission": 0.052279002444987364,
+    "yihanguo_stock_prediction_xgb_kfold_seed_ensemble__submission": 0.1360595329352247,
+    "contrarian_signal": 0.23357330321859526
+  },
+  "lb_corr_opt_4": {
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission": 0.05094047606797412,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_blend": 0.10901292072345503,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_lgbm": 0.09402973354950327,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_meta": 0.03500407611709136,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_xgb": 0.03748044964212274,
+    "lightningv08_stock_market_signal_blind_blend__submission": 0.08946364233929728,
+    "lightningv08_stock_market_signal_single_tabicl_model__submission": 0.1507907026273536,
+    "junaid512_stock_market_signal_predictday__submission": 0.05676604816192519,
+    "yihanguo_stock_prediction_xgb_kfold_seed_ensemble__submission": 0.19779345012629515,
+    "contrarian_signal": 0.17871850064498224
+  },
+  "lb_corr_opt_5": {
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission": 0.12121075392002792,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_blend": 0.07157964832196387,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_meta": 0.030697761686465975,
+    "lightningv08_stock_market_signal_single_tabicl_model__submission": 0.07014966340179196,
+    "alanamonks_hgb_baseline_next_day_stock_pred__submission": 0.07524054427910101,
+    "junaid512_stock_market_signal_predictday__submission": 0.15087928610140072,
+    "yihanguo_stock_prediction_xgb_kfold_seed_ensemble__submission": 0.20494806060832935,
+    "contrarian_signal": 0.27529428168091913
+  }
+}

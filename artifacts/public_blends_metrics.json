@@ -1,0 +1,147 @@
+{
+  "experiment": "public_blends",
+  "n_public_predictions": 20,
+  "prediction_stats": {
+    "alanamonks_hgb_baseline_next_day_stock_pred__submission": {
+      "max": 0.6408285378813394,
+      "mean": 0.5116357285031206,
+      "min": 0.2080701547532138,
+      "std": 0.02626332020142188
+    },
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission": {
+      "max": 0.66454412920579,
+      "mean": 0.509188344912618,
+      "min": 0.2412630933372138,
+      "std": 0.03180691173626617
+    },
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_blend": {
+      "max": 0.66454412920579,
+      "mean": 0.509188344912618,
+      "min": 0.2412630933372138,
+      "std": 0.03180691173626617
+    },
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_lgbm": {
+      "max": 0.6770473137048499,
+      "mean": 0.5108964010661291,
+      "min": 0.2206542770530014,
+      "std": 0.03192916448358503
+    },
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_meta": {
+      "max": 0.6896667802173629,
+      "mean": 0.5111195219456253,
+      "min": 0.1977349030997558,
+      "std": 0.03491463264711724
+    },
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_xgb": {
+      "max": 0.6782493144273758,
+      "mean": 0.510645997861213,
+      "min": 0.1973635777831077,
+      "std": 0.032043645666450994
+    },
+    "hmnshudhmn24_stock_market_signal_predict_next_day_returns__submission": {
+      "max": 0.6734081368502275,
+      "mean": 0.5124078021630722,
+      "min": 0.2287742278005094,
+      "std": 0.02905228792297091
+    },
+    "junaid512_stock_market_signal_predictday__submission": {
+      "max": 0.74010024929772,
+      "mean": 0.5142740807129415,
+      "min": 0.253423477708189,
+      "std": 0.03167408580639677
+    },
+    "lightningv08_stock_market_signal_blind_blend__submission": {
+      "max": 0.5949903527594956,
+      "mean": 0.5027935943354301,
+      "min": 0.1485260539325038,
+      "std": 0.026617175709577025
+    },
+    "lightningv08_stock_market_signal_single_tabicl_model__submission": {
+      "max": 0.5545609,
+      "mean": 0.5095687140894587,
+      "min": 0.1648486,
+      "std": 0.022500206155354717
+    },
+    "mabubakrsiddiq_stock_prediction_competition_notebook__submission": {
+      "max": 0.77990395,
+      "mean": 0.5064978286733238,
+      "min": 0.17608884,
+      "std": 0.03787372511635612
+    },
+    "minnminncherry_stock_market_prediction__submission": {
+      "max": 0.6,
+      "mean": 0.49952323748029126,
+      "min": 0.4,
+      "std": 0.007155626112292834
+    },
+    "nina2025_stock_market_signal_h_blend__submission": {
+      "max": 0.6690972818338496,
+      "mean": 0.5097113407695139,
+      "min": 0.1929156875738591,
+      "std": 0.0297548471857269
+    },
+    "nina2025_stock_market_signal_hs_feature_engineering__submission": {
+      "max": 0.6607510149478912,
+      "mean": 0.5109447940058401,
+      "min": 0.19086330011487,
+      "std": 0.03101102980032282
+    },
+    "ravi20076_stock2026_blindblend_v1__submission": {
+      "max": 0.599689148977681,
+      "mean": 0.5068788481883925,
+      "min": 0.1915525074057033,
+      "std": 0.024451154625670095
+    },
+    "ravi20076_stock2026_public_baseline_v1__submission": {
+      "max": 2.5401198434405545,
+      "mean": 0.5135659860916639,
+      "min": -0.3121823574561524,
+      "std": 0.09182266469017966
+    },
+    "ravi20076_stock2026_public_baseline_v2__submission": {
+      "max": 0.6356556754693576,
+      "mean": 0.5111101329053717,
+      "min": 0.2428876260363902,
+      "std": 0.024658169988999893
+    },
+    "suhanigupta04_stock_direction_prediction_next_day_returns__submission": {
+      "max": 0.6586269048883014,
+      "mean": 0.5120179372054837,
+      "min": 0.2246911191453757,
+      "std": 0.027480106400562802
+    },
+    "swas06_stockclassification__submission_ensemble": {
+      "max": 0.6855643578741922,
+      "mean": 0.5080262297790609,
+      "min": 0.2488300229709351,
+      "std": 0.025867265009923923
+    },
+    "yihanguo_stock_prediction_xgb_kfold_seed_ensemble__submission": {
+      "max": 0.7354821572701136,
+      "mean": 0.5058062280213715,
+      "min": 0.1377928484852115,
+      "std": 0.03250224570242618
+    }
+  },
+  "submissions": [
+    "submissions/public_rank_blend_v1.csv",
+    "submissions/public_rank_blend_plus_contrarian_v1.csv"
+  ],
+  "used_weights": {
+    "alanamonks_hgb_baseline_next_day_stock_pred__submission": 1.1,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission": 1.15,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_blend": 1.15,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_lgbm": 1.05,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_meta": 1.1,
+    "emanuellcs_stock_market_signal_predict_next_day_returns__submission_xgb": 1.0,
+    "hmnshudhmn24_stock_market_signal_predict_next_day_returns__submission": 0.75,
+    "junaid512_stock_market_signal_predictday__submission": 0.85,
+    "lightningv08_stock_market_signal_blind_blend__submission": 1.2,
+    "lightningv08_stock_market_signal_single_tabicl_model__submission": 0.95,
+    "nina2025_stock_market_signal_h_blend__submission": 0.6,
+    "nina2025_stock_market_signal_hs_feature_engineering__submission": 0.55,
+    "ravi20076_stock2026_blindblend_v1__submission": 1.05,
+    "ravi20076_stock2026_public_baseline_v2__submission": 0.95,
+    "suhanigupta04_stock_direction_prediction_next_day_returns__submission": 0.65
+  }
+}

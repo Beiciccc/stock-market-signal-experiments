@@ -1,0 +1,65 @@
+{
+  "base": "submissions/bestv1_tabiclv2_est1_rs123_w050.csv",
+  "outputs": {
+    "best20260506_rs123w050_emanuel_lgbm_w0025.csv": {
+      "source": "data/public_outputs/emanuellcs_stock_market_signal_predict_next_day_returns/submission_lgbm.csv",
+      "spearman_to_base": 0.8559088269241765,
+      "submission": "submissions/best20260506_rs123w050_emanuel_lgbm_w0025.csv",
+      "weight": 0.0025
+    },
+    "best20260506_rs123w050_emanuel_lgbm_w0050.csv": {
+      "source": "data/public_outputs/emanuellcs_stock_market_signal_predict_next_day_returns/submission_lgbm.csv",
+      "spearman_to_base": 0.8559088269241765,
+      "submission": "submissions/best20260506_rs123w050_emanuel_lgbm_w0050.csv",
+      "weight": 0.005
+    },
+    "best20260506_rs123w050_mabubakr_w0025.csv": {
+      "source": "data/public_outputs/mabubakrsiddiq_stock_prediction_competition_notebook/submission.csv",
+      "spearman_to_base": 0.5278057948565521,
+      "submission": "submissions/best20260506_rs123w050_mabubakr_w0025.csv",
+      "weight": 0.0025
+    },
+    "best20260506_rs123w050_mabubakr_w0050.csv": {
+      "source": "data/public_outputs/mabubakrsiddiq_stock_prediction_competition_notebook/submission.csv",
+      "spearman_to_base": 0.5278057948565521,
+      "submission": "submissions/best20260506_rs123w050_mabubakr_w0050.csv",
+      "weight": 0.005
+    },
+    "best20260506_rs123w050_minn_w0025.csv": {
+      "source": "data/public_outputs/minnminncherry_stock_market_prediction/submission.csv",
+      "spearman_to_base": 0.06212269958492504,
+      "submission": "submissions/best20260506_rs123w050_minn_w0025.csv",
+      "weight": 0.0025
+    },
+    "best20260506_rs123w050_minn_w0050.csv": {
+      "source": "data/public_outputs/minnminncherry_stock_market_prediction/submission.csv",
+      "spearman_to_base": 0.06212269958492504,
+      "submission": "submissions/best20260506_rs123w050_minn_w0050.csv",
+      "weight": 0.005
+    },
+    "best20260506_rs123w050_ravi_blind_v1_w0025.csv": {
+      "source": "data/public_outputs/ravi20076_stock2026_blindblend_v1/submission.csv",
+      "spearman_to_base": 0.8943761532052694,
+      "submission": "submissions/best20260506_rs123w050_ravi_blind_v1_w0025.csv",
+      "weight": 0.0025
+    },
+    "best20260506_rs123w050_ravi_blind_v1_w0050.csv": {
+      "source": "data/public_outputs/ravi20076_stock2026_blindblend_v1/submission.csv",
+      "spearman_to_base": 0.8943761532052694,
+      "submission": "submissions/best20260506_rs123w050_ravi_blind_v1_w0050.csv",
+      "weight": 0.005
+    },
+    "best20260506_rs123w050_swas_w0025.csv": {
+      "source": "data/public_outputs/swas06_stockclassification/submission_ensemble.csv",
+      "spearman_to_base": 0.7936720778925255,
+      "submission": "submissions/best20260506_rs123w050_swas_w0025.csv",
+      "weight": 0.0025
+    },
+    "best20260506_rs123w050_swas_w0050.csv": {
+      "source": "data/public_outputs/swas06_stockclassification/submission_ensemble.csv",
+      "spearman_to_base": 0.7936720778925255,
+      "submission": "submissions/best20260506_rs123w050_swas_w0050.csv",
+      "weight": 0.005
+    }
+  }
+}

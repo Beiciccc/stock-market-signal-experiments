@@ -1,0 +1,32 @@
+{
+  "base": "submissions/em675_contr324_rank.csv",
+  "outputs": {
+    "best_tabicl_v1_w020.csv": {
+      "spearman_to_base": 0.7668112943371352,
+      "submission": "submissions/best_tabicl_v1_w020.csv",
+      "tabicl_weight": 0.02
+    },
+    "best_tabicl_v1_w030.csv": {
+      "spearman_to_base": 0.7668112943371352,
+      "submission": "submissions/best_tabicl_v1_w030.csv",
+      "tabicl_weight": 0.03
+    },
+    "best_tabicl_v1_w050.csv": {
+      "spearman_to_base": 0.7668112943371352,
+      "submission": "submissions/best_tabicl_v1_w050.csv",
+      "tabicl_weight": 0.05
+    },
+    "best_tabicl_v1_w080.csv": {
+      "spearman_to_base": 0.7668112943371352,
+      "submission": "submissions/best_tabicl_v1_w080.csv",
+      "tabicl_weight": 0.08
+    },
+    "best_tabicl_v1_w100.csv": {
+      "spearman_to_base": 0.7668112943371352,
+      "submission": "submissions/best_tabicl_v1_w100.csv",
+      "tabicl_weight": 0.1
+    }
+  },
+  "spearman_to_base": 0.7668112943371352,
+  "tabicl": "data/public_outputs/lightningv08_stock_market_signal_single_tabicl_model/submission.csv"
+}

@@ -1,0 +1,35 @@
+{
+  "experiment": "narrow_blends",
+  "submissions": [
+    "submissions/emanuellcs70_contrarian30_rank.csv",
+    "submissions/narrow_em_contr_light_alan_rank.csv",
+    "submissions/narrow_em_contr_light_alan_junaid_rank.csv",
+    "submissions/narrow_em_contr_light_alan_ravi_rank.csv"
+  ],
+  "weights": {
+    "emanuellcs70_contrarian30_rank": {
+      "contrarian": 0.3,
+      "em": 0.7
+    },
+    "narrow_em_contr_light_alan_junaid_rank": {
+      "alan": 0.24,
+      "contrarian": 0.18,
+      "em": 0.34,
+      "junaid": 0.05,
+      "light": 0.19
+    },
+    "narrow_em_contr_light_alan_rank": {
+      "alan": 0.26,
+      "contrarian": 0.19,
+      "em": 0.37,
+      "light": 0.18
+    },
+    "narrow_em_contr_light_alan_ravi_rank": {
+      "alan": 0.22,
+      "contrarian": 0.18,
+      "em": 0.36,
+      "light": 0.15,
+      "ravi": 0.09
+    }
+  }
+}

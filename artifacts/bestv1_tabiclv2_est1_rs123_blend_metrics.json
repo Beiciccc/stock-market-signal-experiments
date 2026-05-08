@@ -1,0 +1,22 @@
+{
+  "base": "submissions/bestv1_tabiclv2_est1_w350.csv",
+  "outputs": {
+    "bestv1_tabiclv2_est1_rs123_w100.csv": {
+      "spearman_to_base": 0.8333055689019376,
+      "submission": "submissions/bestv1_tabiclv2_est1_rs123_w100.csv",
+      "tabicl_weight": 0.1
+    },
+    "bestv1_tabiclv2_est1_rs123_w120.csv": {
+      "spearman_to_base": 0.8333055689019376,
+      "submission": "submissions/bestv1_tabiclv2_est1_rs123_w120.csv",
+      "tabicl_weight": 0.12
+    },
+    "bestv1_tabiclv2_est1_rs123_w150.csv": {
+      "spearman_to_base": 0.8333055689019376,
+      "submission": "submissions/bestv1_tabiclv2_est1_rs123_w150.csv",
+      "tabicl_weight": 0.15
+    }
+  },
+  "spearman_to_base": 0.8333055689019376,
+  "tabicl": "submissions/tabicl_v2_est1_bs2048_rs123.csv"
+}

@@ -1,0 +1,6 @@
+{
+  "experiment": "simple_logit_contrarian",
+  "submission": "submissions/simple_logit_contrarian.csv",
+  "time_holdout_auc_10pct": 0.5155849357544845,
+  "time_holdout_auc_5pct": 0.5214589129541446
+}

@@ -1,0 +1,32 @@
+{
+  "base": "submissions/bestv1_tabiclv2_est1_w350.csv",
+  "outputs": {
+    "bestv1_tabiclv2_est1_stockid_rs42_w005.csv": {
+      "spearman_to_base": 0.8712279119034496,
+      "submission": "submissions/bestv1_tabiclv2_est1_stockid_rs42_w005.csv",
+      "tabicl_weight": 0.005
+    },
+    "bestv1_tabiclv2_est1_stockid_rs42_w010.csv": {
+      "spearman_to_base": 0.8712279119034496,
+      "submission": "submissions/bestv1_tabiclv2_est1_stockid_rs42_w010.csv",
+      "tabicl_weight": 0.01
+    },
+    "bestv1_tabiclv2_est1_stockid_rs42_w020.csv": {
+      "spearman_to_base": 0.8712279119034496,
+      "submission": "submissions/bestv1_tabiclv2_est1_stockid_rs42_w020.csv",
+      "tabicl_weight": 0.02
+    },
+    "bestv1_tabiclv2_est1_stockid_rs42_w030.csv": {
+      "spearman_to_base": 0.8712279119034496,
+      "submission": "submissions/bestv1_tabiclv2_est1_stockid_rs42_w030.csv",
+      "tabicl_weight": 0.03
+    },
+    "bestv1_tabiclv2_est1_stockid_rs42_w050.csv": {
+      "spearman_to_base": 0.8712279119034496,
+      "submission": "submissions/bestv1_tabiclv2_est1_stockid_rs42_w050.csv",
+      "tabicl_weight": 0.05
+    }
+  },
+  "spearman_to_base": 0.8712279119034496,
+  "tabicl": "submissions/tabicl_v2_est1_stockid_bs2048_rs42.csv"
+}

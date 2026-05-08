@@ -1,0 +1,10 @@
+.DS_Store
+._*
+__pycache__/
+*.pyc
+*.tgz
+*.zip
+data/raw/
+data/external/
+runs/
+models/

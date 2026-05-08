@@ -1,0 +1,12 @@
+{
+  "experiment": "hgb_public_repro",
+  "fold_auc": [
+    0.5400536224031903,
+    0.5414125585033789,
+    0.5413191137675476,
+    0.5403755431254236,
+    0.5404145231842974
+  ],
+  "random_oof_auc": 0.5406780708236026,
+  "submission": "submissions/hgb_public_repro.csv"
+}

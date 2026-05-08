@@ -1,0 +1,7 @@
+{
+  "all_train_auc": 0.5154903165963423,
+  "experiment": "contrarian_signal",
+  "submission": "submissions/contrarian_signal.csv",
+  "time_holdout_auc_10pct": 0.5155849357544845,
+  "time_holdout_auc_5pct": 0.5214589129541446
+}

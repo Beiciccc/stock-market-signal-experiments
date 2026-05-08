@@ -1,0 +1,19 @@
+{
+  "checkpoint_version": "tabicl-classifier-v2-20260212.ckpt",
+  "experiment": "tabicl_v2_est1_bs2048_rs123",
+  "fit_seconds": 2.8772923946380615,
+  "include_stock_id": false,
+  "n_estimators": 1,
+  "predict_batch_size": 2048,
+  "predict_seconds": 1957.2969706058502,
+  "prediction_stats": {
+    "max": 0.5901494026184082,
+    "mean": 0.5005677342414856,
+    "min": 0.14012698829174042,
+    "std": 0.03206302225589752
+  },
+  "rows_test": 53276,
+  "rows_train": 440402,
+  "submission": "submissions\\tabicl_v2_est1_bs2048_rs123.csv",
+  "total_seconds": 1962.6108264923096
+}
