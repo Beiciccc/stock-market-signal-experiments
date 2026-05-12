@@ -18,11 +18,11 @@ kaggle competitions download -c stock-market-signal-predict-next-day-returns
 
 ## Current Best Public Score
 
-Best public leaderboard score recorded in this archive: `0.52028`.
+Best public leaderboard score recorded in this archive: `0.52029`.
 
 The strongest submitted family is a TabICL v2 single-estimator signal blended at
-small rank weights over the prior best anchor. The useful range plateaued around
-`3%` to `12%`; higher weights and public-output microblends did not improve.
+small rank weights over the prior best anchor. The current best uses an
+additional fresh TabICL seed blended at `8%` over the previous `0.52028` anchor.
 
 ## Repository Layout
 

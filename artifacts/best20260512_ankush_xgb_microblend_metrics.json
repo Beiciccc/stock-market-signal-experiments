@@ -1,0 +1,19 @@
+{
+  "base": "submissions/bestv1_tabiclv2_est1_rs123_w050.csv",
+  "outputs": {
+    "best20260512_rs123w050_ankush_xgb_w0025.csv": {
+      "submission": "submissions/best20260512_rs123w050_ankush_xgb_w0025.csv",
+      "weight": 0.0025
+    },
+    "best20260512_rs123w050_ankush_xgb_w0050.csv": {
+      "submission": "submissions/best20260512_rs123w050_ankush_xgb_w0050.csv",
+      "weight": 0.005
+    },
+    "best20260512_rs123w050_ankush_xgb_w0100.csv": {
+      "submission": "submissions/best20260512_rs123w050_ankush_xgb_w0100.csv",
+      "weight": 0.01
+    }
+  },
+  "signal": "submissions/ankush_xgb_pipeline_repro.csv",
+  "spearman_to_base": 0.443302529311675
+}

@@ -1,0 +1,12 @@
+{
+  "experiment": "ankush_xgb_pipeline_repro",
+  "prediction_stats": {
+    "max": 0.7692631483078003,
+    "mean": 0.5097783207893372,
+    "min": 0.1377263218164444,
+    "std": 0.04137435927987099
+  },
+  "seconds": 51.96062779426575,
+  "submission": "submissions/ankush_xgb_pipeline_repro.csv",
+  "train_auc": 0.6503597530414423
+}
