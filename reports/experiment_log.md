@@ -4,13 +4,14 @@ Competition: `stock-market-signal-predict-next-day-returns`
 
 ## Summary
 
-Best recorded public leaderboard score: `0.52029`.
+Best recorded public leaderboard score: `0.52031`.
 
 Current strongest family:
 
 - Prior best rank anchor plus a TabICL v2 single-estimator signal.
 - Useful TabICL seed `123` rank-blend weights: `3%`, `5%`, `8%`, `10%`, and `12%` all scored `0.52028`.
 - Fresh TabICL seed `314159` reached `0.52029` at `8%` over the `rs123_w050` anchor.
+- Fresh TabICL seed `2027` reached `0.52031` at `5%` over the `0.52029` anchor.
 - `rs123` at `15%` dropped to `0.52027`, so that expansion was stopped.
 
 ## Public Baselines Reviewed
@@ -84,11 +85,22 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260512_rs123w050_tabicl_rs314159_w050.csv` | `0.52028` | 5% tied. |
 | `best20260512_rs123w050_tabicl_rs314159_w080.csv` | `0.52029` | 8% produced a new best. |
 
+### 2026-05-13
+
+| File | Public LB | Readout |
+|---|---:|---|
+| `best20260513_rs123w050_tabicl_rs314159_w100.csv` | `0.52028` | Extending `rs314159` from 8% to 10% hurt. |
+| `best20260513_rs123w050_tabicl_rs314159_peakprobe_w070.csv` | `0.52029` | 7% tied the best. |
+| `best20260513_rs123w050_tabicl_rs314159_peakprobe_w085.csv` | `0.52028` | 8.5% hurt; the `rs314159` peak is narrow. |
+| `best20260513_best0529_tabicl_rs2027_w030.csv` | `0.52030` | Fresh TabICL seed `2027` at 3% improved. |
+| `best20260513_best0529_tabicl_rs2027_w050.csv` | `0.52031` | Same seed at 5% improved again; current best. |
+
 ## Current Rules
 
-- Keep `0.52029` as the public anchor.
+- Keep `0.52031` as the public anchor.
 - Do not continue rs123 expansion above `12%`.
+- Do not continue `rs314159` above the 7%-8% peak region.
 - Do not continue stock-id TabICL blends without new evidence.
 - Do not continue direct higher-estimator replacement blends without new evidence.
 - Avoid broad public-output microblends; tested variants mostly tied or hurt.
-- The next useful direction is probing the fresh `314159` seed around `10-12%`, combining useful seeds at small total weight, or generating another genuinely different TabICL seed/configuration.
+- The next useful direction is probing `rs2027` at `8%`, then generating another genuinely different TabICL seed/configuration.

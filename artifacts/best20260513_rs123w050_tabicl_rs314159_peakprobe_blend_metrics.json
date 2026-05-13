@@ -1,0 +1,22 @@
+{
+  "base": "submissions/bestv1_tabiclv2_est1_rs123_w050.csv",
+  "outputs": {
+    "best20260513_rs123w050_tabicl_rs314159_peakprobe_w070.csv": {
+      "spearman_to_base": 0.8385526416445206,
+      "submission": "submissions/best20260513_rs123w050_tabicl_rs314159_peakprobe_w070.csv",
+      "tabicl_weight": 0.07
+    },
+    "best20260513_rs123w050_tabicl_rs314159_peakprobe_w085.csv": {
+      "spearman_to_base": 0.8385526416445206,
+      "submission": "submissions/best20260513_rs123w050_tabicl_rs314159_peakprobe_w085.csv",
+      "tabicl_weight": 0.085
+    },
+    "best20260513_rs123w050_tabicl_rs314159_peakprobe_w090.csv": {
+      "spearman_to_base": 0.8385526416445206,
+      "submission": "submissions/best20260513_rs123w050_tabicl_rs314159_peakprobe_w090.csv",
+      "tabicl_weight": 0.09
+    }
+  },
+  "spearman_to_base": 0.8385526416445206,
+  "tabicl": "submissions/tabicl_v2_est1_bs2048_rs314159.csv"
+}
