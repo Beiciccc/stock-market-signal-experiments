@@ -4,7 +4,7 @@ Competition: `stock-market-signal-predict-next-day-returns`
 
 ## Summary
 
-Best recorded public leaderboard score: `0.52031`.
+Best recorded public leaderboard score: `0.52035`.
 
 Current strongest family:
 
@@ -12,6 +12,7 @@ Current strongest family:
 - Useful TabICL seed `123` rank-blend weights: `3%`, `5%`, `8%`, `10%`, and `12%` all scored `0.52028`.
 - Fresh TabICL seed `314159` reached `0.52029` at `8%` over the `rs123_w050` anchor.
 - Fresh TabICL seed `2027` reached `0.52031` at `5%` over the `0.52029` anchor.
+- Fresh TabICL seed `2027` continued improving through `15%`, reaching `0.52035`.
 - `rs123` at `15%` dropped to `0.52027`, so that expansion was stopped.
 
 ## Public Baselines Reviewed
@@ -95,12 +96,22 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260513_best0529_tabicl_rs2027_w030.csv` | `0.52030` | Fresh TabICL seed `2027` at 3% improved. |
 | `best20260513_best0529_tabicl_rs2027_w050.csv` | `0.52031` | Same seed at 5% improved again; current best. |
 
+### 2026-05-14
+
+| File | Public LB | Readout |
+|---|---:|---|
+| `best20260513_best0529_tabicl_rs2027_w080.csv` | `0.52032` | `rs2027` expansion from 5% to 8% improved. |
+| `best20260514_best0529_tabicl_rs2027_w100.csv` | `0.52033` | Continued `rs2027` expansion improved. |
+| `best20260514_best0529_tabicl_rs2027_w120.csv` | `0.52034` | Continued `rs2027` expansion improved. |
+| `best20260514_best0529_tabicl_rs2027_w150.csv` | `0.52035` | Continued `rs2027` expansion improved. |
+| `best20260514_best0529_tabicl_rs2027_w180.csv` | `0.52035` | 18% tied 15%; expansion likely reached a plateau. |
+
 ## Current Rules
 
-- Keep `0.52031` as the public anchor.
+- Keep `0.52035` as the public anchor.
 - Do not continue rs123 expansion above `12%`.
 - Do not continue `rs314159` above the 7%-8% peak region.
 - Do not continue stock-id TabICL blends without new evidence.
 - Do not continue direct higher-estimator replacement blends without new evidence.
 - Avoid broad public-output microblends; tested variants mostly tied or hurt.
-- The next useful direction is probing `rs2027` at `8%`, then generating another genuinely different TabICL seed/configuration.
+- The next useful direction is regenerating `rs271828` blends against the `0.52035` anchor, or fine-probing `rs2027` around `14%-18%`.
