@@ -106,6 +106,16 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260514_best0529_tabicl_rs2027_w150.csv` | `0.52035` | Continued `rs2027` expansion improved. |
 | `best20260514_best0529_tabicl_rs2027_w180.csv` | `0.52035` | 18% tied 15%; expansion likely reached a plateau. |
 
+### 2026-05-15
+
+| File | Public LB | Readout |
+|---|---:|---|
+| `best20260515_best0529_tabicl_rs2027_total_w160.csv` | `0.52035` | Total 16% tied current best. |
+| `best20260515_best0529_tabicl_rs2027_total_w140.csv` | `0.52034` | Lower edge dropped. |
+| `best20260515_best052035_tabicl_rs271828_w030.csv` | `0.52030` | Fresh seed `271828` hurt at 3%; stopped. |
+| `best20260515_best0529_tabicl_rs2027_total_w170.csv` | `0.52035` | Total 17% tied current best. |
+| `best20260515_best0529_tabicl_rs2027_total_w130.csv` | `0.52034` | Lower edge dropped. |
+
 ## Current Rules
 
 - Keep `0.52035` as the public anchor.
@@ -114,4 +124,4 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 - Do not continue stock-id TabICL blends without new evidence.
 - Do not continue direct higher-estimator replacement blends without new evidence.
 - Avoid broad public-output microblends; tested variants mostly tied or hurt.
-- The next useful direction is regenerating `rs271828` blends against the `0.52035` anchor, or fine-probing `rs2027` around `14%-18%`.
+- The next useful direction is a genuinely new no-stock-id TabICL seed/config. `rs2027` is plateaued around `15%-18%`; `rs271828` hurt at 3%.
