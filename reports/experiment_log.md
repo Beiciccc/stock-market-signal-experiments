@@ -124,6 +124,7 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260516_rs2027_total_w165.csv` | `0.52035` | Total 16.5% `rs2027` tied current best; confirms the 15%-18% region is a plateau. |
 | `best20260516_rs2027_plateau_avg_w150_160_170_180.csv` | `0.52035` | Rank average of the stable `rs2027` plateau tied current best; averaging did not remove enough noise to improve. |
 | `best20260516_anchor_anti_rs271828_w005.csv` | `0.52036` | Micro anti-blend against failed seed `271828` improved; promoted to current anchor. |
+| `best20260516_best052036_anti_rs314159_w005.csv` | `0.52036` | Micro anti-blend against `rs314159`, recomputed on the new `0.52036` anchor, tied the new best. |
 
 ## Current Rules
 
@@ -133,4 +134,4 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 - Do not continue stock-id TabICL blends without new evidence.
 - Do not continue direct higher-estimator replacement blends without new evidence.
 - Avoid broad public-output microblends; tested variants mostly tied or hurt.
-- The next useful direction is a genuinely new no-stock-id TabICL seed/config. `rs2027` is plateaued around `15%-18%`; `rs271828` hurt at 3%.
+- The next useful directions are a fresh no-stock-id TabICL seed/config and a small anti-`rs271828` expansion from the `0.52036` anchor. `rs2027` is plateaued around `15%-18%`; positive `rs271828` hurt at 3%, but a `-0.5%` micro anti-blend improved.
