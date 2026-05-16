@@ -123,10 +123,11 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260516_rs2027_total_w155.csv` | `0.52035` | Total 15.5% `rs2027` tied current best; plateau center did not break through. |
 | `best20260516_rs2027_total_w165.csv` | `0.52035` | Total 16.5% `rs2027` tied current best; confirms the 15%-18% region is a plateau. |
 | `best20260516_rs2027_plateau_avg_w150_160_170_180.csv` | `0.52035` | Rank average of the stable `rs2027` plateau tied current best; averaging did not remove enough noise to improve. |
+| `best20260516_anchor_anti_rs271828_w005.csv` | `0.52036` | Micro anti-blend against failed seed `271828` improved; promoted to current anchor. |
 
 ## Current Rules
 
-- Keep `0.52035` as the public anchor.
+- Keep `0.52036` as the public anchor.
 - Do not continue rs123 expansion above `12%`.
 - Do not continue `rs314159` above the 7%-8% peak region.
 - Do not continue stock-id TabICL blends without new evidence.
