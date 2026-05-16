@@ -116,6 +116,12 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260515_best0529_tabicl_rs2027_total_w170.csv` | `0.52035` | Total 17% tied current best. |
 | `best20260515_best0529_tabicl_rs2027_total_w130.csv` | `0.52034` | Lower edge dropped. |
 
+### 2026-05-16
+
+| File | Public LB | Readout |
+|---|---:|---|
+| `best20260516_rs2027_total_w155.csv` | `0.52035` | Total 15.5% `rs2027` tied current best; plateau center did not break through. |
+
 ## Current Rules
 
 - Keep `0.52035` as the public anchor.

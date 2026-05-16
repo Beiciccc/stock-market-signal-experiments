@@ -1,0 +1,69 @@
+{
+  "candidates": {
+    "best20260516_anchor_anti_rs271828_w005.csv": {
+      "base": "submissions/best20260514_best0529_tabicl_rs2027_w150.csv",
+      "max": 0.9999812301743716,
+      "mean": 0.5,
+      "min": 1.8769825628319912e-05,
+      "signal": "submissions/tabicl_v2_est1_bs2048_rs271828.csv",
+      "spearman_to_anchor": 0.9999966400368049,
+      "std": 0.2886697161618209,
+      "submission": "submissions/best20260516_anchor_anti_rs271828_w005.csv",
+      "type": "anti_signal_microblend",
+      "weight": -0.005
+    },
+    "best20260516_anchor_anti_rs314159_w005.csv": {
+      "base": "submissions/best20260514_best0529_tabicl_rs2027_w150.csv",
+      "max": 0.9999812301743716,
+      "mean": 0.49999999999999994,
+      "min": 1.8769825628319912e-05,
+      "signal": "submissions/tabicl_v2_est1_bs2048_rs314159.csv",
+      "spearman_to_anchor": 0.9999973107067258,
+      "std": 0.2886697161618209,
+      "submission": "submissions/best20260516_anchor_anti_rs314159_w005.csv",
+      "type": "anti_signal_microblend",
+      "weight": -0.005
+    },
+    "best20260516_rs2027_plateau_avg_w150_160_170_180.csv": {
+      "inputs": [
+        "submissions/best20260514_best0529_tabicl_rs2027_w150.csv",
+        "submissions/best20260515_best0529_tabicl_rs2027_total_w160.csv",
+        "submissions/best20260515_best0529_tabicl_rs2027_total_w170.csv",
+        "submissions/best20260514_best0529_tabicl_rs2027_w180.csv"
+      ],
+      "max": 0.9999812301743716,
+      "mean": 0.49999999999999994,
+      "min": 1.8769825628319912e-05,
+      "spearman_to_anchor": 0.999972830293198,
+      "std": 0.28866971614129533,
+      "submission": "submissions/best20260516_rs2027_plateau_avg_w150_160_170_180.csv",
+      "type": "plateau_rank_average"
+    },
+    "best20260516_rs2027_total_w155.csv": {
+      "base": "submissions/best20260512_rs123w050_tabicl_rs314159_w080.csv",
+      "max": 0.9999812301743716,
+      "mean": 0.5,
+      "min": 1.8769825628319912e-05,
+      "signal": "submissions/tabicl_v2_est1_bs2048_rs2027.csv",
+      "spearman_to_anchor": 0.9999969283791211,
+      "std": 0.2886697161618037,
+      "submission": "submissions/best20260516_rs2027_total_w155.csv",
+      "type": "rs2027_total_fine",
+      "weight": 0.155
+    },
+    "best20260516_rs2027_total_w165.csv": {
+      "base": "submissions/best20260512_rs123w050_tabicl_rs314159_w080.csv",
+      "max": 0.9999812301743716,
+      "mean": 0.49999999999999994,
+      "min": 1.8769825628319912e-05,
+      "signal": "submissions/tabicl_v2_est1_bs2048_rs2027.csv",
+      "spearman_to_anchor": 0.9999728452835595,
+      "std": 0.2886697161618438,
+      "submission": "submissions/best20260516_rs2027_total_w165.csv",
+      "type": "rs2027_total_fine",
+      "weight": 0.165
+    }
+  },
+  "current_anchor": "submissions/best20260514_best0529_tabicl_rs2027_w150.csv",
+  "date": "2026-05-16"
+}
