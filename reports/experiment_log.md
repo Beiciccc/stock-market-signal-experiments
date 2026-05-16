@@ -121,6 +121,7 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | File | Public LB | Readout |
 |---|---:|---|
 | `best20260516_rs2027_total_w155.csv` | `0.52035` | Total 15.5% `rs2027` tied current best; plateau center did not break through. |
+| `best20260516_rs2027_total_w165.csv` | `0.52035` | Total 16.5% `rs2027` tied current best; confirms the 15%-18% region is a plateau. |
 
 ## Current Rules
 
