@@ -1,0 +1,29 @@
+{
+  "additional_candidates": {
+    "best20260517_best052036_anti271_increment_w005.csv": {
+      "max": 0.9999812301743716,
+      "mean": 0.5,
+      "min": 1.8769825628319912e-05,
+      "spearman_to_best": 0.9999966140611253,
+      "std": 0.2886697161618667,
+      "submission": "submissions/best20260517_best052036_anti271_increment_w005.csv"
+    },
+    "best20260517_combo_anti271_w0075_anti314_w0025.csv": {
+      "max": 0.9999812301743716,
+      "mean": 0.5,
+      "min": 1.8769825628319912e-05,
+      "spearman_to_best": 0.9999974622557936,
+      "std": 0.28866971616195836,
+      "submission": "submissions/best20260517_combo_anti271_w0075_anti314_w0025.csv"
+    },
+    "best20260517_combo_anti271_w010_anti314_w0025.csv": {
+      "max": 0.9999812301743716,
+      "mean": 0.49999999999999994,
+      "min": 1.8769825628319912e-05,
+      "spearman_to_best": 0.9999939745511512,
+      "std": 0.2886697161619526,
+      "submission": "submissions/best20260517_combo_anti271_w010_anti314_w0025.csv"
+    }
+  },
+  "date": "2026-05-17"
+}
