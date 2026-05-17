@@ -126,6 +126,12 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260516_anchor_anti_rs271828_w005.csv` | `0.52036` | Micro anti-blend against failed seed `271828` improved; promoted to current anchor. |
 | `best20260516_best052036_anti_rs314159_w005.csv` | `0.52036` | Micro anti-blend against `rs314159`, recomputed on the new `0.52036` anchor, tied the new best. |
 
+### 2026-05-17
+
+| File | Public LB | Readout |
+|---|---:|---|
+| `best20260517_anchor_anti_rs271828_total_w010.csv` | `0.52036` | Total -1.0% anti-`rs271828` tied current best; the branch remains stable. |
+
 ## Current Rules
 
 - Keep `0.52036` as the public anchor.
