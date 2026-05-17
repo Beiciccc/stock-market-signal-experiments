@@ -134,13 +134,14 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260517_anchor_anti_rs271828_total_w015.csv` | `0.52036` | Total -1.5% anti-`rs271828` tied current best; anti-`rs271828` looks like a plateau. |
 | `best20260517_combo_anti271_w0075_anti314_w0025.csv` | `0.52036` | Small combined anti-`rs271828`/anti-`rs314159` perturbation tied current best. |
 | `best20260517_best052036_combo_anti271_w010_anti314_w005.csv` | `0.52036` | Stronger combined anti-`rs271828`/anti-`rs314159` perturbation also tied; no additive lift. |
+| `best20260517_anchor_anti_rs271828_total_w020.csv` | `0.52037` | Total -2.0% anti-`rs271828` improved; promoted to current anchor. |
 
 ## Current Rules
 
-- Keep `0.52036` as the public anchor.
+- Keep `0.52037` as the public anchor.
 - Do not continue rs123 expansion above `12%`.
 - Do not continue `rs314159` above the 7%-8% peak region.
 - Do not continue stock-id TabICL blends without new evidence.
 - Do not continue direct higher-estimator replacement blends without new evidence.
 - Avoid broad public-output microblends; tested variants mostly tied or hurt.
-- The next useful directions are a fresh no-stock-id TabICL seed/config and a small anti-`rs271828` expansion from the `0.52036` anchor. `rs2027` is plateaued around `15%-18%`; positive `rs271828` hurt at 3%, but a `-0.5%` micro anti-blend improved.
+- The next useful directions are a fresh no-stock-id TabICL seed/config and mapping the anti-`rs271828` upper edge from the `0.52037` anchor. `rs2027` is plateaued around `15%-18%`; positive `rs271828` hurt at 3%, but total `-2.0%` anti-`rs271828` improved.
