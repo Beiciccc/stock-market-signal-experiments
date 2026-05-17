@@ -131,6 +131,7 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | File | Public LB | Readout |
 |---|---:|---|
 | `best20260517_anchor_anti_rs271828_total_w010.csv` | `0.52036` | Total -1.0% anti-`rs271828` tied current best; the branch remains stable. |
+| `best20260517_anchor_anti_rs271828_total_w015.csv` | `0.52036` | Total -1.5% anti-`rs271828` tied current best; anti-`rs271828` looks like a plateau. |
 
 ## Current Rules
 
