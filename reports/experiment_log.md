@@ -143,10 +143,11 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260518_anchor_anti_rs271828_total_w025.csv` | `0.52038` | Total -2.5% anti-`rs271828` improved; promoted to current anchor. |
 | `best20260518_anchor_anti_rs271828_total_w0275.csv` | `0.52038` | Total -2.75% anti-`rs271828` tied current best; right side remains viable. |
 | `best20260518_anchor_anti_rs271828_total_w030.csv` | `0.52038` | Total -3.0% anti-`rs271828` tied current best; upper edge has not dropped yet. |
+| `best20260518_anchor_anti_rs271828_total_w035.csv` | `0.52039` | Total -3.5% anti-`rs271828` improved; promoted to current anchor. |
 
 ## Current Rules
 
-- Keep `0.52038` as the public anchor.
+- Keep `0.52039` as the public anchor.
 - Do not continue rs123 expansion above `12%`.
 - Do not continue `rs314159` above the 7%-8% peak region.
 - Do not continue stock-id TabICL blends without new evidence.
