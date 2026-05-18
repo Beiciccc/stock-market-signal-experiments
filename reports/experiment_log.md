@@ -144,6 +144,7 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 | `best20260518_anchor_anti_rs271828_total_w0275.csv` | `0.52038` | Total -2.75% anti-`rs271828` tied current best; right side remains viable. |
 | `best20260518_anchor_anti_rs271828_total_w030.csv` | `0.52038` | Total -3.0% anti-`rs271828` tied current best; upper edge has not dropped yet. |
 | `best20260518_anchor_anti_rs271828_total_w035.csv` | `0.52039` | Total -3.5% anti-`rs271828` improved; promoted to current anchor. |
+| `best20260518_anchor_anti_rs271828_total_w040.csv` | `0.52039` | Total -4.0% anti-`rs271828` tied the new best; upper edge still has not clearly dropped. |
 
 ## Current Rules
 
@@ -153,4 +154,4 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 - Do not continue stock-id TabICL blends without new evidence.
 - Do not continue direct higher-estimator replacement blends without new evidence.
 - Avoid broad public-output microblends; tested variants mostly tied or hurt.
-- The next useful directions are a fresh no-stock-id TabICL seed/config and fine-sweeping the anti-`rs271828` peak around total `-2.5%`. `rs2027` is plateaued around `15%-18%`; positive `rs271828` hurt at 3%, but total `-2.5%` anti-`rs271828` improved.
+- The next useful directions are a fresh no-stock-id TabICL seed/config and mapping the anti-`rs271828` upper edge around total `-3.5%` to `-4.0%`. `rs2027` is plateaued around `15%-18%`; positive `rs271828` hurt at 3%, but total `-3.5%` anti-`rs271828` improved.
