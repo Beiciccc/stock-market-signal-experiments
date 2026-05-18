@@ -142,6 +142,7 @@ Key finding: random cross-validation was not reliable for this competition. Publ
 |---|---:|---|
 | `best20260518_anchor_anti_rs271828_total_w025.csv` | `0.52038` | Total -2.5% anti-`rs271828` improved; promoted to current anchor. |
 | `best20260518_anchor_anti_rs271828_total_w0275.csv` | `0.52038` | Total -2.75% anti-`rs271828` tied current best; right side remains viable. |
+| `best20260518_anchor_anti_rs271828_total_w030.csv` | `0.52038` | Total -3.0% anti-`rs271828` tied current best; upper edge has not dropped yet. |
 
 ## Current Rules
 
